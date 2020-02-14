@@ -55,6 +55,7 @@ h1{
 	width: 90px;
 	margin-left: 80px;
 	margin-bottom: 10px;
+	color:rgba(235,218,235,1);
 }
 
 .bio{
@@ -62,6 +63,7 @@ h1{
   font-style: italic;
   color: white;
 	margin-left: 16px;
+	color:rgba(235,218,235,1);
 }
 
 header{
@@ -108,7 +110,7 @@ li{
 
 
 h2{
-  color: white;
+  color: rgba(235,218,235,1);
   font-size: 30px;
   margin-left: 40px;
   color: rgba(235,218,235,1);
@@ -136,15 +138,23 @@ body{
 	display: flex;
 	justify-content: space-evenly;
 }
+/*-----------------photo comment----------*/
+.comment{
+	color: rgba(235,218,235,1);
+	font-style:italic;
+}
 
 /* ------------------footer----------------------*/
 footer{
 	background-color: rgba(235,218,235,1);
 	height: 30px;
+	display: flex;
 	text-align: center;
 	justify-content: space-around;
 	margin-top: 60px;
 	-webkit-border-radius: 25px;
 	-moz-border-radius: 25px;
 	border-radius: 25px;
+	padding-top: 20px;
+	margin-bottom: 10px;
 }
